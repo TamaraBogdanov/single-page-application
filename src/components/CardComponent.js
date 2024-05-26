@@ -19,21 +19,21 @@ function CardComponent() {
 							src="images/img-4.jpg"
 							text="Leave or Need a message in a bottle? Check out my NetArt!"
 							label="Net Art"
-							path="/essays"
+							path="/netart"
 						/>
 					</ul>
 					<ul className="cards-items">
 						<Card
 							src="images/img-3.jpg"
-							text="Preperations, reflections and research i put in!"
-							label="Theory"
+							text="Explore essays i've written about NetArt!"
+							label="Essays"
 							path="/theory"
 						/>
 						<Card
-							src="images/os.jpg"
-							text="Explore essays i've written about NetArt!"
-							label="Essays"
-							path="/essays"
+							src="images/img-8.jpg"
+							text="NetArt Preperations and Reflections!"
+							label="Theory"
+							path="/art"
 						/>
 						<Card
 							src="images/img-2.jpg"

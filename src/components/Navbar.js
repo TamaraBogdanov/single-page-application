@@ -54,7 +54,11 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className={"nav-item"}>
-							<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+							<Link
+								to="/netart"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
 								Net Art
 							</Link>
 						</li>

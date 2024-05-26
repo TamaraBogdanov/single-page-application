@@ -1,6 +1,15 @@
 import React from "react";
 import "../../App.css";
+import BookPage from "../BookPages";
+import Footer from "../Footer";
 
-export default function Theory() {
-	return <h1 className="theory">THEORY</h1>;
+function Theory() {
+	return (
+		<>
+			<BookPage />
+			<Footer />
+		</>
+	);
 }
+
+export default Theory;

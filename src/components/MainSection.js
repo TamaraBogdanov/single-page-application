@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App.css";
+import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import YouTubeModal from "./youtubemodal";
 import "./MainSection.css";
@@ -22,13 +22,16 @@ function MainSection() {
 			<p>Dive right in!</p>
 
 			<div className="main-btns">
-				<Button
-					className="btns"
-					buttonStyle="btn--outline"
-					buttonSize="btn--large"
-				>
-					Get Started
-				</Button>
+				{/* Use Link component to navigate to "/netart" */}
+				<Link to="/netart">
+					<Button
+						className="btns"
+						buttonStyle="btn--outline"
+						buttonSize="btn--large"
+					>
+						Get Started
+					</Button>
+				</Link>
 				<Button
 					onClick={openModal}
 					className="btns"

@@ -6,6 +6,10 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import User from "./components/pages/User";
 import ScrollToTop from "./Customhook";
+import Theory from "./components/pages/Theory";
+import Planning from "./components/pages/Planning";
+import NetArt from "./components/pages/NetArt";
+import NetArtPage from "./components/pages/NetArt";
 
 function App() {
 	return (
@@ -17,6 +21,9 @@ function App() {
 					<Route path="/" exact element={<Home />}></Route>
 					<Route path="/about" exact element={<About />}></Route>
 					<Route path="/user" exact element={<User />}></Route>
+					<Route path="/theory" exact element={<Theory />}></Route>
+					<Route path="/art" exact element={<Planning />}></Route>
+					<Route path="/netart" exact element={<NetArtPage />}></Route>
 				</Routes>
 			</Router>
 		</>
