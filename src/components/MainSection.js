@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import { Button } from "./Button";
+import YouTubeModal from "./youtubemodal";
 import "./MainSection.css";
 
 function MainSection() {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const openModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const closeModal = () => {
+		setIsModalOpen(false);
+	};
+
 	return (
 		<div className="main-container">
 			<video src="/videos/waves1.mp4" autoPlay loop muted />
@@ -19,13 +30,15 @@ function MainSection() {
 					Get Started
 				</Button>
 				<Button
+					onClick={openModal}
 					className="btns"
 					buttonStyle="btn--primary"
 					buttonSize="btn--large"
 				>
-					View NetART!
+					Uplifting video
 				</Button>
 			</div>
+			<YouTubeModal isOpen={isModalOpen} onClose={closeModal} />
 		</div>
 	);
 }

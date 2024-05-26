@@ -10,13 +10,13 @@ function CardComponent() {
 				<div className="cards-wrapper">
 					<ul className="cards-items">
 						<Card
-							src="images/img-2.jpg"
+							src="images/img-5.jpg"
 							text="Check out other motivational sites!"
 							label="Motivations"
-							path="https://wpifoundation.org/en/self-development-program/4?gad_source=1#/"
+							path="https://lifewellwandered.com/feeling-down/"
 						/>
 						<Card
-							src="images/img-2.jpg"
+							src="images/img-4.jpg"
 							text="Leave or Need a message in a bottle? Check out my NetArt!"
 							label="Net Art"
 							path="/essays"
@@ -24,13 +24,13 @@ function CardComponent() {
 					</ul>
 					<ul className="cards-items">
 						<Card
-							src="images/img-2.jpg"
+							src="images/img-3.jpg"
 							text="Preperations, reflections and research i put in!"
 							label="Theory"
 							path="/theory"
 						/>
 						<Card
-							src="images/img-2.jpg"
+							src="images/os.jpg"
 							text="Explore essays i've written about NetArt!"
 							label="Essays"
 							path="/essays"

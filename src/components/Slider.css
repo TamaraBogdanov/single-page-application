@@ -4,11 +4,26 @@
 	height: 100%;
 	position: fixed;
 	z-index: -1;
+	margin-top: -50px;
+}
+
+.slider-component h1 {
+	font-size: 50px;
+	margin-top: 50px;
+	color: white;
+}
+
+.slider-component p {
+	font-size: 25px;
+	margin-top: 10px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
 }
 
 .slider {
 	position: relative;
-	height: 100vh;
+	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;

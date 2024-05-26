@@ -19,27 +19,31 @@ function Slider({ slides }) {
 	}
 
 	return (
-		<section className="slider">
+		<section className="slider-component">
 			<img src="/images/img-2.jpg" className="bg-image" alt="img" />
-			<FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-			<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+			<h1>Design Journal</h1>
 
-			{SliderData.map((slide, index) => {
-				return (
-					<figure
-						className={index === current ? "slide active" : "slide"}
-						key={index}
-					>
-						{index === current && (
-							<img
-								src={slide.Image}
-								alt="wireframes"
-								className="slider-image"
-							/>
-						)}
-					</figure>
-				);
-			})}
+			<section className="slider">
+				<FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+				<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+
+				{SliderData.map((slide, index) => {
+					return (
+						<figure
+							className={index === current ? "slide active" : "slide"}
+							key={index}
+						>
+							{index === current && (
+								<img
+									src={slide.Image}
+									alt="wireframes"
+									className="slider-image"
+								/>
+							)}
+						</figure>
+					);
+				})}
+			</section>
 		</section>
 	);
 }
