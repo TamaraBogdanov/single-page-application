@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBottleDroplet } from "@fortawesome/free-solid-svg-icons";
-import { faDotCircle } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./Button";
 import "./Navbar.css";
@@ -22,20 +22,24 @@ function Navbar() {
 		}
 	};
 
+	useEffect(() => {
+		showButton();
+	}, []);
+
 	window.addEventListener("resize", showButton);
 
 	return (
 		<>
 			<nav className="navbar">
 				<div className="navbar-container">
-					<Link to="/" className="navbar-logo">
+					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 						OBA&nbsp;
 						<FontAwesomeIcon icon={faBottleDroplet} className="navbar-icon" />
 					</Link>
 					<div className="menu-icon" onClick={handleClick}>
 						<FontAwesomeIcon
-							icon={click ? faBars : faDotCircle}
-							className={click ? "faDotCircle" : "faBars"}
+							icon={click ? faTimes : faBars}
+							className={click ? "faBars" : "faTimes"}
 						/>
 					</div>
 					<ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -50,17 +54,13 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className={"nav-item"}>
-							<Link
-								to="/netart"
-								className="nav-links"
-								onClick={closeMobileMenu}
-							>
+							<Link to="/" className="nav-links" onClick={closeMobileMenu}>
 								Net Art
 							</Link>
 						</li>
 						<li>
 							<Link
-								to="/netart"
+								to="/"
 								className="nav-links-mobile"
 								onClick={closeMobileMenu}
 							>
