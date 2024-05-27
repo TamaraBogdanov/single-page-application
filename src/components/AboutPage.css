@@ -72,21 +72,25 @@
 }
 
 /* Media queries for smaller screens */
+/* Media queries for smaller screens */
 @media screen and (max-width: 960px) {
 	.about-component h2 {
 		font-size: 60px;
+		margin-top: 0; /* Remove margin top */
 	}
 
 	.about-component-content p {
 		text-align: center;
 		max-width: 90%;
 		font-size: 15px;
+		margin-top: 0;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.about-component h2 {
 		font-size: 50px;
+		margin-top: 0;
 	}
 
 	.about-component-content {
@@ -107,5 +111,6 @@
 		text-align: center;
 		max-width: 90%;
 		font-size: 15px;
+		margin-top: 0;
 	}
 }
