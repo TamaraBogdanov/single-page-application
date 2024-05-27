@@ -1,6 +1,10 @@
 import React from "react";
-import "./Footer.css";
 import { Link } from "react-router-dom";
+
+//Components
+import "./Footer.css";
+
+//Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBottleDroplet } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";

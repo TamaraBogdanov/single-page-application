@@ -31,6 +31,10 @@ function Art() {
 					The result? A captivating digital artwork that not only spreads
 					positivity but also serves as a beacon of hope in the vast sea of the
 					internet.
+					<br />
+					<br />I am aware a lot could go wrong with this, and people could
+					easily type negatively, but i will look for a solution to this closer
+					to the time
 				</p>
 
 				{/* Image */}

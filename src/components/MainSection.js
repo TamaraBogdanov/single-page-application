@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+//Components
 import { Button } from "./Button";
 import YouTubeModal from "./youtubemodal";
 import "./MainSection.css";
@@ -19,16 +21,14 @@ function MainSection() {
 	};
 
 	return (
-		<div className="main-container">
-			{/* Video background */}
+		<main className="main-container">
 			<video src="./videos/waves1.mp4" autoPlay loop muted />
 
-			{/* Main title */}
 			<h1>ONE BOTTLE AWAY</h1>
 			<p>Dive right in!</p>
 
 			{/* Main buttons */}
-			<div className="main-btns">
+			<section className="main-btns">
 				{/* Button to navigate to "/netart" */}
 				<Link to="/netart">
 					<Button
@@ -49,11 +49,11 @@ function MainSection() {
 				>
 					Uplifting video
 				</Button>
-			</div>
+			</section>
 
 			{/* renders the YouTubeModal component and manages its open/close state based on the isModalOpen state variable and the closeModal function */}
 			<YouTubeModal isOpen={isModalOpen} onClose={closeModal} />
-		</div>
+		</main>
 	);
 }
 

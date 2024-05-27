@@ -7,10 +7,8 @@ function About() {
 			{/* Video background */}
 			<video src="./videos/waves1.mp4" autoPlay loop muted />
 
-			{/* Title */}
 			<h2>About Us!</h2>
 
-			{/* Content */}
 			<article className="about-component-content">
 				<p>
 					Welcome to our digital oasis amidst the sometimes stormy seas of the

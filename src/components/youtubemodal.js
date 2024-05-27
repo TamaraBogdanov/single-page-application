@@ -1,5 +1,9 @@
 import React from "react";
+
+//Components
 import "./youtubemodal.css";
+
+//Icons
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

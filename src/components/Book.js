@@ -24,17 +24,14 @@ const Book = ({ imageSrc, essayPages }) => {
 			{/* Background Image */}
 			<img src="./images/img-3.jpg" className="bg-image" alt="img" />
 
-			{/* Title */}
 			<h1>NetArt Essay</h1>
 
 			{/* Content */}
 			<section className="book-content">
-				{/* Image */}
 				<figure className="book-image">
 					<img src="./images/img-6.jpg" alt="Book Illustration" />
 				</figure>
 
-				{/* Text */}
 				<article className="book-text">
 					{/* Display the current page content */}
 					<p>{essayPages[currentPage]}</p>

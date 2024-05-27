@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import { SliderData } from "./SliderData"; // Importing slider data
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa"; // Importing arrow icons
-import "../components/Slider.css"; // Importing styles
+import { SliderData } from "./SliderData";
+import "../components/Slider.css";
+
+//Icons
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 function Slider({ slides }) {
 	// State to keep track of the current slide

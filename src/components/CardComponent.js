@@ -1,14 +1,16 @@
 import React from "react";
+
+//Components
 import Card from "./Card";
 import "./CardComponent.css";
 
 //A component that renders a collection of Card components,showcasing various destinations or themes.
 function CardComponent() {
 	return (
-		<div className="cards">
+		<main className="cards">
 			<h1>Check out these EPIC Destinations!</h1>
-			<div className="cards-container">
-				<div className="cards-wrapper">
+			<section className="cards-container">
+				<article className="cards-wrapper">
 					<ul className="cards-items">
 						<Card
 							src="./images/img-5.jpg"
@@ -43,9 +45,9 @@ function CardComponent() {
 							path="/user"
 						/>
 					</ul>
-				</div>
-			</div>
-		</div>
+				</article>
+			</section>
+		</main>
 	);
 }
 
