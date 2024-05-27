@@ -5,7 +5,7 @@ function Art() {
 	return (
 		<section className="about-component">
 			{/* Background image */}
-			<img src="/images/img-8.jpg" className="bg-image" alt="img" />
+			<img src="./images/img-8.jpg" className="bg-image" alt="img" />
 
 			{/* Title */}
 			<h3>Net Art Preparation</h3>
@@ -35,7 +35,7 @@ function Art() {
 
 				{/* Image */}
 				<figure className="art-page-image">
-					<img alt="Net Art" src="images/netart.png" />
+					<img alt="Net Art" src="./images/netart.png" />
 				</figure>
 			</article>
 		</section>
