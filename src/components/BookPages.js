@@ -36,7 +36,7 @@ const BookPage = () => {
 			{/*
 				Rendering the Book component
 			*/}
-			<Book imageSrc="/path/to/your/image.jpg" essayPages={essayPages} />
+			<Book imageSrc="./images/img-6.jpg" essayPages={essayPages} />
 		</div>
 	);
 };
