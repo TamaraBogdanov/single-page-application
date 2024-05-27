@@ -5,7 +5,12 @@ function About() {
 	return (
 		<section className="about-component">
 			{/* Video background */}
-			<video src="/videos/waves1.mp4" autoPlay loop muted />
+			<video
+				src="./single-page-application/videos/waves1.mp4"
+				autoPlay
+				loop
+				muted
+			/>
 
 			{/* Title */}
 			<h2>About Us!</h2>
