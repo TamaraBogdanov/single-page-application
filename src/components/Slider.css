@@ -71,33 +71,31 @@
 /* Media Queries for Responsiveness */
 @media only screen and (max-width: 768px) {
 	.slider-component h1 {
-		font-size: 40px; /* Adjust font size for smaller screens */
-		margin-top: 30px; /* Adjust margin for smaller screens */
+		font-size: 40px;
 	}
 
 	.slider-component p {
-		font-size: 20px; /* Adjust font size for smaller screens */
+		font-size: 20px;
 	}
 
 	.slider {
-		height: auto; /* Allow height to adjust according to content */
-		padding: 20px; /* Add padding for better spacing */
-		max-width: 100%; /* Set maximum width to prevent overflow */
-		overflow: hidden; /* Hide any content that overflows the container */
+		height: auto;
+		max-width: 100%;
+		overflow: hidden;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.slider-image {
-		max-width: 100%; /* Set maximum width to ensure responsiveness */
-		height: auto; /* Allow the height to adjust accordingly */
+		max-width: 100%;
+		height: auto;
 		border-radius: 10px;
 		overflow: hidden;
 	}
 
 	.right-arrow,
 	.left-arrow {
-		font-size: 2rem; /* Adjust arrow size for smaller screens */
+		font-size: 2rem;
 	}
 }
