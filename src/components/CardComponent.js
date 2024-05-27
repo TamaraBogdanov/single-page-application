@@ -17,7 +17,7 @@ function CardComponent() {
 							path="https://lifewellwandered.com/feeling-down/"
 						/>
 						<Card
-							src="images/img-4.jpg"
+							src="./images/img-4.jpg"
 							text="Leave or Need a message in a bottle? Check out my NetArt!"
 							label="Net Art"
 							path="/netart"
@@ -25,19 +25,19 @@ function CardComponent() {
 					</ul>
 					<ul className="cards-items">
 						<Card
-							src="images/img-3.jpg"
+							src="./images/img-3.jpg"
 							text="Explore essays i've written about NetArt!"
 							label="Essays"
 							path="/theory"
 						/>
 						<Card
-							src="images/img-8.jpg"
+							src="./images/img-8.jpg"
 							text="NetArt Preperations and Reflections!"
 							label="Theory"
 							path="/art"
 						/>
 						<Card
-							src="images/img-2.jpg"
+							src="./images/img-2.jpg"
 							text="Dive into the UI/UX decisions used for this site "
 							label="Design Journal"
 							path="/user"

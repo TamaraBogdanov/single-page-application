@@ -22,7 +22,7 @@ const Book = ({ imageSrc, essayPages }) => {
 	return (
 		<section className="book">
 			{/* Background Image */}
-			<img src="/images/img-3.jpg" className="bg-image" alt="img" />
+			<img src="./images/img-3.jpg" className="bg-image" alt="img" />
 
 			{/* Title */}
 			<h1>NetArt Essay</h1>
@@ -31,7 +31,7 @@ const Book = ({ imageSrc, essayPages }) => {
 			<section className="book-content">
 				{/* Image */}
 				<figure className="book-image">
-					<img src="/images/img-6.jpg" alt="Book Illustration" />
+					<img src="./images/img-6.jpg" alt="Book Illustration" />
 				</figure>
 
 				{/* Text */}
