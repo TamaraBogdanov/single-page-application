@@ -19,7 +19,7 @@ import AboutPage from "./components/pages/About";
 function App() {
 	return (
 		<React.Fragment>
-			<BrowserRouter basename="/single-page-application/" hashType="noslash">
+			<BrowserRouter basename="/single-page-application/">
 				{/* Scrolltotop component called to start from top of page on every link clicked */}
 				<ScrollToTop />;
 				<Navbar />
