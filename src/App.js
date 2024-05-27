@@ -1,15 +1,14 @@
 import "./App.css";
 import React from "react";
-import {
-	BrowserRouter as Router,
-	Route,
-	Routes,
-	BrowserRouter,
-} from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
+
+//Components
 import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import User from "./components/pages/User";
 import ScrollToTop from "./Customhook";
+
+//Pages
 import Theory from "./components/pages/Theory";
 import Planning from "./components/pages/Planning";
 import NetArtPage from "./components/pages/NetArt";
@@ -19,7 +18,7 @@ import AboutPage from "./components/pages/About";
 function App() {
 	return (
 		<React.Fragment>
-			<BrowserRouter basename="/single-page-application/">
+			<HashRouter basename="/single-page-application/">
 				{/* Scrolltotop component called to start from top of page on every link clicked */}
 				<ScrollToTop />;
 				<Navbar />
@@ -31,7 +30,7 @@ function App() {
 					<Route path="/art" exact element={<Planning />}></Route>
 					<Route path="/netart" exact element={<NetArtPage />}></Route>
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</React.Fragment>
 	);
 }
