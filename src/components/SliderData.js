@@ -1,3 +1,4 @@
+//Slider Images
 export const SliderData = [
 	{
 		Image: "images/wireframe-1.png",
@@ -12,6 +13,6 @@ export const SliderData = [
 		Image: "images/wireframe-4.png",
 	},
 	{
-		Image: "images/os.jpg",
+		Image: "images/wireframe-5.png",
 	},
 ];

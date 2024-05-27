@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Card component to display card items
 function Card(props) {
 	return (
 		<>

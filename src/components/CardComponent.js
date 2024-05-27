@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import "./CardComponent.css";
 
+//A component that renders a collection of Card components,showcasing various destinations or themes.
 function CardComponent() {
 	return (
 		<div className="cards">

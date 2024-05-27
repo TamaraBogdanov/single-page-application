@@ -1,3 +1,4 @@
+/* Video background */
 .video {
 	object-fit: cover;
 	width: 100%;
@@ -6,6 +7,7 @@
 	z-index: -1;
 }
 
+/* About component styling */
 .about-component {
 	height: auto;
 	width: 100%;
@@ -17,18 +19,22 @@
 	box-sizing: border-box;
 }
 
+/* Heading 2 styling */
 .about-component h2 {
 	font-size: 70px;
 	margin-bottom: 20px;
 	margin-top: 30px;
 }
 
+/* Heading 3 styling */
 .about-component h3 {
 	font-size: 60px;
 	margin-bottom: 20px;
 	margin-top: 30px;
+	color: white;
 }
 
+/* Content container styling */
 .about-component-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -40,12 +46,14 @@
 	margin-top: 15px;
 }
 
+/* Paragraph styling */
 .about-component-content p {
 	flex: 1;
 	padding-left: 40px;
 	font-size: 18px;
 }
 
+/* Image container styling */
 .about-page-image,
 .art-page-image {
 	flex: 1;
@@ -55,6 +63,7 @@
 	max-width: 100%;
 }
 
+/* Image styling */
 .about-page-image img,
 .art-page-image img {
 	max-width: 100%;
@@ -62,6 +71,7 @@
 	border-radius: 5px;
 }
 
+/* Media queries for smaller screens */
 @media screen and (max-width: 960px) {
 	.about-component h2 {
 		font-size: 60px;

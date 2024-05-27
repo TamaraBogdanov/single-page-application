@@ -1,3 +1,4 @@
+/* Book container styling */
 .book {
 	display: flex;
 	flex-direction: column;
@@ -8,6 +9,7 @@
 	padding-bottom: 80px; /* Add bottom padding if needed */
 }
 
+/* Title styling */
 .book h1 {
 	font-size: 50px;
 	margin-top: 20px;
@@ -15,6 +17,7 @@
 	color: white;
 }
 
+/* Content container styling */
 .book-content {
 	display: flex;
 	width: 100%;
@@ -24,18 +27,21 @@
 	background: #fff; /* Ensure background color is set */
 }
 
+/* Image container styling */
 .book-image {
 	flex: 1;
 	max-width: 50%; /* Ensure the image container takes up to 50% of the space */
 	overflow: hidden; /* Ensure any overflow is hidden */
 }
 
+/* Image styling */
 .book-image img {
 	width: 100%;
 	height: auto;
 	display: block; /* Ensure image is displayed as block */
 }
 
+/* Text container styling */
 .book-text {
 	flex: 1;
 	max-width: 50%; /* Ensure the text container takes up to 50% of the space */
@@ -45,12 +51,14 @@
 	overflow-y: auto; /* Ensure overflow is handled for large text */
 }
 
+/* Navigation container styling */
 .book-navigation {
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 }
 
+/* Navigation button styling */
 .book-navigation button {
 	padding: 10px 20px;
 	font-size: 1.2em;
@@ -62,6 +70,7 @@
 	color: white;
 }
 
+/* Disabled state for navigation button */
 .book-navigation button:disabled {
 	background-color: #ddd;
 	cursor: not-allowed;
@@ -69,6 +78,7 @@
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+	/* Adjustments for smaller screens */
 	.book-content {
 		flex-direction: column;
 	}
@@ -90,6 +100,7 @@
 }
 
 @media (max-width: 480px) {
+	/* Adjustments for even smaller screens */
 	.book h1 {
 		font-size: 35px;
 	}

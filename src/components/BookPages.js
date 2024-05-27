@@ -2,6 +2,7 @@ import React from "react";
 import Book from "./Book";
 import "./Book.css";
 
+// Array of essay pages to be displayed in the Book component
 const essayPages = [
 	" The internet has changed how we see and enjoy art, providing artists with a limitless digital space to try new ways of expressing themselves. Net-Art, also known as web-based art, is a special type of art that uses the internets features like connectivity and interaction to push artistic limits. As the online world keeps changing, net-art evolves too, showing how technology affects society and our lives online",
 	"Net/web art represents a distinctive genre of artistic expression that uses the internet as it primary canvas, gallery, and medium, The internet “has a logic, a tempo, an idiom, a colour scheme, a politics, and an emotional sensibility all its own”(Heffernan, V. 2016) which is why  it has become a stable ground for artists to discover new ways to express, interact, and  share their works. Unlike traditional art forms that rely on physical materials, Net-Art exists purely in the digital realm, often taking the form of websites, online programs, or interactive experiences.",
@@ -27,9 +28,14 @@ const essayPages = [
 	"Ultimately, net-art shows how the internet can change our ideas about art, who creates it,and what artists do today. As we deal with the challenges of the digital era, net-art will be important for shaping how we see things, sparking discussions, and encouraging new ways to be creative. The future of net-art holds both exciting possibilities and formidable challenges. As new technologies emerge, such as artificial intelligence and virtual reality, artists will undoubtedly find new ways to use these innovations in their art, pushing the boundaries of what is possible in the digital realm ",
 ];
 
+// Functional component named BookPage
 const BookPage = () => {
+	// JSX to render the component's UI
 	return (
 		<div className="book-page">
+			{/*
+				Rendering the Book component
+			*/}
 			<Book imageSrc="/path/to/your/image.jpg" essayPages={essayPages} />
 		</div>
 	);

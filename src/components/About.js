@@ -3,10 +3,15 @@ import "../components/AboutPage.css";
 
 function About() {
 	return (
-		<div className="about-component">
+		<section className="about-component">
+			{/* Video background */}
 			<video src="/videos/waves1.mp4" autoPlay loop muted />
+
+			{/* Title */}
 			<h2>About Us!</h2>
-			<div className="about-component-content">
+
+			{/* Content */}
+			<article className="about-component-content">
 				<p>
 					Welcome to our digital oasis amidst the sometimes stormy seas of the
 					internet! We're here to turn the tide on negativity and spread waves
@@ -32,11 +37,12 @@ function About() {
 					every shared moment of connection. Welcome aboard!
 				</p>
 
+				{/* Image */}
 				<figure className="about-page-image">
 					<img alt="Future Plans" src="images/img-1.jpg" />
 				</figure>
-			</div>
-		</div>
+			</article>
+		</section>
 	);
 }
 

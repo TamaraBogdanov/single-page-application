@@ -3,13 +3,18 @@ import "./youtubemodal.css";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// YouTubeModal component takes isOpen and onClose as props
 const YouTubeModal = ({ isOpen, onClose }) => {
 	return (
-		<div className={`youtube-modal ${isOpen ? "open" : ""}`}>
-			<div className="modal-content">
+		<main className={`youtube-modal ${isOpen ? "open" : ""}`}>
+			{/* Conditional rendering: Renders the modal only if isOpen is true */}
+			<section className="modal-content">
+				{/* Close button for the modal */}
 				<button className="close-btn" onClick={onClose}>
+					{/* FontAwesomeIcon component to render the close icon */}
 					<FontAwesomeIcon icon={faTimes} />
 				</button>
+				{/* Embedding YouTube video inside an iframe */}
 				{isOpen && (
 					<iframe
 						title="YouTube Video"
@@ -20,8 +25,8 @@ const YouTubeModal = ({ isOpen, onClose }) => {
 						allowFullScreen
 					></iframe>
 				)}
-			</div>
-		</div>
+			</section>
+		</main>
 	);
 };
 
