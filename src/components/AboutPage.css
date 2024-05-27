@@ -75,14 +75,53 @@
 @media screen and (max-width: 960px) {
 	.about-component h2 {
 		font-size: 60px;
+		margin-top: 0;
 	}
 
 	.about-component-content p {
+		text-align: center;
+		max-width: 90%;
 		font-size: 15px;
+		margin-top: 0;
 	}
 }
 
 @media screen and (max-width: 768px) {
+	.about-component h2 {
+		font-size: 50px;
+	}
+
+	.about-component-content {
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+
+	.about-page-image,
+	.art-page-image {
+		order: 1;
+		margin-bottom: 20px;
+	}
+
+	.about-component-content p {
+		order: 2;
+		padding-left: 0;
+		text-align: center;
+		max-width: 90%;
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.video {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: -1;
+		margin-top: -30px;
+	}
+}
+
+@media (max-width: 480px) {
 	.about-component h2 {
 		font-size: 50px;
 		margin-top: 20px;
@@ -101,29 +140,12 @@
 	}
 
 	.about-component-content p {
+		order: 2;
+		padding-left: 0;
+		text-align: center;
+		max-width: 90%;
 		font-size: 15px;
-	}
-}
-
-@media (max-width: 480px) {
-	.about-component h2 {
-		font-size: 50px;
-	}
-
-	.about-component-content {
-		flex-direction: column;
-		align-items: center;
-		padding: 0;
-	}
-
-	.about-page-image,
-	.art-page-image {
-		order: 1;
-		margin-bottom: 20px;
-	}
-
-	.about-component-content p {
-		font-size: 15px;
+		margin-top: 0;
 	}
 
 	.video {
