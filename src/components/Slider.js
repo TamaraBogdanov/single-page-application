@@ -45,7 +45,7 @@ function Slider({ slides }) {
 								// Displaying the image of the current slide
 								<img
 									src={slide.Image}
-									alt="wireframes"
+									alt="wireframe"
 									className="slider-image"
 								/>
 							)}
