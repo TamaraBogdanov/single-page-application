@@ -25,7 +25,7 @@ function Slider({ slides }) {
 
 	return (
 		<section className="slider-component">
-			<img src="./images/img-3.jpg" className="bg-image" alt="img" />
+			<img src="./images/img-2.jpg" className="bg-image" alt="img" />
 			{/* Background image */}
 			<h1>Design Journal</h1> {/* Heading for the slider section */}
 			<section className="slider">
