@@ -5,7 +5,7 @@ function Art() {
 	return (
 		<section className="about-component">
 			{/* Background image */}
-			<img src="./images/img-8.jpg" className="bg-image" alt="img" />
+			<img src="./images/img-8.jpg" alt="bgimage" />
 
 			{/* Title */}
 			<h3>Net Art Preparation</h3>
