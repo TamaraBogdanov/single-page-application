@@ -11,7 +11,7 @@ function CardComponent() {
 				<div className="cards-wrapper">
 					<ul className="cards-items">
 						<Card
-							src="images/img-5.jpg"
+							src="./images/img-5.jpg"
 							text="Check out other motivational sites!"
 							label="Motivations"
 							path="https://lifewellwandered.com/feeling-down/"

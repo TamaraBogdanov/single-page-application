@@ -5,12 +5,7 @@ function About() {
 	return (
 		<section className="about-component">
 			{/* Video background */}
-			<video
-				src="./single-page-application/videos/waves1.mp4"
-				autoPlay
-				loop
-				muted
-			/>
+			<video src="./videos/waves1.mp4" autoPlay loop muted />
 
 			{/* Title */}
 			<h2>About Us!</h2>
@@ -44,7 +39,7 @@ function About() {
 
 				{/* Image */}
 				<figure className="about-page-image">
-					<img alt="Future Plans" src="images/img-1.jpg" />
+					<img alt="Future Plans" src="./images/img-1.jpg" />
 				</figure>
 			</article>
 		</section>

@@ -21,7 +21,7 @@ function MainSection() {
 	return (
 		<div className="main-container">
 			{/* Video background */}
-			<video src="videos/waves1.mp4" autoPlay loop muted />
+			<video src="./videos/waves1.mp4" autoPlay loop muted />
 
 			{/* Main title */}
 			<h1>ONE BOTTLE AWAY</h1>
