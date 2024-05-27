@@ -87,9 +87,13 @@
 }
 
 @media screen and (max-width: 768px) {
+	.about-component {
+		margin-top: -50px;
+	}
+
 	.about-component h2 {
 		font-size: 50px;
-		margin-top: 0;
+		margin-top: 20px;
 	}
 
 	.about-component-content {
@@ -115,9 +119,13 @@
 }
 
 @media (max-width: 480px) {
+	.about-component {
+		margin-top: -50px;
+	}
+
 	.about-component h2 {
 		font-size: 50px;
-		margin-top: 0;
+		margin-top: 20px;
 	}
 
 	.about-component-content {
