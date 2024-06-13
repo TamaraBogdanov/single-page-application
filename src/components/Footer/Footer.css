@@ -5,9 +5,22 @@ html {
 	height: 100%;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+html {
+	overflow-y: auto;
+}
+
+footer {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
 .footer-container {
 	background-color: #242424;
-	padding: 3rem 0;
+	padding-top: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
