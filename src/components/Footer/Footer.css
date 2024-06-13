@@ -1,6 +1,13 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
 .footer-container {
 	background-color: #242424;
-	padding: 3rem 0; /* Adjusted bottom padding to reduce the gap */
+	padding: 3rem 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -30,7 +37,7 @@
 
 .footer-link-items h2 {
 	margin-bottom: 16px;
-	color: #fff; /* Consolidated h2 styling */
+	color: #fff;
 }
 
 .footer-link-items a {
