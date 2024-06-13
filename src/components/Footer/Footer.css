@@ -97,19 +97,13 @@ html {
 	margin-bottom: 16px;
 }
 
-body,
-html {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-}
-
 .footer-container {
 	background-color: #242424;
 	padding: 2rem 0; /* Adjusted padding for top and bottom */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 0;
 }
 
 .footer-links {
