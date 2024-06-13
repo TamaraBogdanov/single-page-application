@@ -1,22 +1,17 @@
 import "./App.css";
 import React from "react";
-import {
-	BrowserRouter as Router,
-	Route,
-	Routes,
-	BrowserRouter,
-} from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 //Components
-import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
-import User from "./components/pages/User";
+import Navbar from "./components/Nav/Navbar";
+import Home from "./pages/Home";
+import User from "./pages/User";
 import ScrollToTop from "./Customhook";
 
 //Pages
-import Theory from "./components/pages/Theory";
-import Planning from "./components/pages/Planning";
-import NetArtPage from "./components/pages/NetArt";
-import AboutPage from "./components/pages/About";
+import Theory from "./pages/Theory";
+import Planning from "./pages/Planning";
+import NetArtPage from "./pages/NetArt";
+import AboutPage from "./pages/About";
 
 //App component displaying routing for every page
 function App() {
