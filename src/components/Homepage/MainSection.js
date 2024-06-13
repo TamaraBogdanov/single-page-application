@@ -31,7 +31,7 @@ function MainSection() {
 	};
 
 	return (
-		<main className="main-container">
+		<div className="main-container">
 			<video
 				className="video-main"
 				src="./videos/waves1.mp4"
@@ -76,7 +76,7 @@ function MainSection() {
 			</section>
 			{/* Renders the YouTubeModal component and manages its open/close state based on the isModalOpen state variable and the closeModal function */}
 			<YouTubeModal isOpen={isModalOpen} onClose={closeModal} />
-		</main>
+		</div>
 	);
 }
 
