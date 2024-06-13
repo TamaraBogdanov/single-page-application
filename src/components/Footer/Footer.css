@@ -1,6 +1,6 @@
 .footer-container {
 	background-color: #242424;
-	padding: 3rem 0 1rem 0;
+	padding: 3rem 0; /* Adjusted bottom padding to reduce the gap */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -30,10 +30,7 @@
 
 .footer-link-items h2 {
 	margin-bottom: 16px;
-}
-
-.footer-link-items > h2 {
-	color: #fff;
+	color: #fff; /* Consolidated h2 styling */
 }
 
 .footer-link-items a {
@@ -103,7 +100,4 @@
 	.social-media-wrap {
 		flex-direction: column;
 	}
-}
-
-@media screen and (max-width: 768px) {
 }
