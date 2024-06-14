@@ -1,6 +1,9 @@
 import React from "react";
+
+//CSS Styling
 import "./BannerComponent.css";
 
+//Passing props to add a different text/heading per banner
 function BannerComponent({ heading, text }) {
 	return (
 		<section className="banner">

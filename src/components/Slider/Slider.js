@@ -40,7 +40,7 @@ function Slider({ slides }) {
 				{/* Right arrow button to go to the next slide */}
 				<FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
 
-				{/* Mapping over the slider data to render each slide */}
+				{/* Mapping over the slider data to render each slide. Used "https://www.npmjs.com/package/react-slideshow-image" for help */}
 				{SliderData.map((slide, index) => {
 					return (
 						<figure

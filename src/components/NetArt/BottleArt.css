@@ -95,3 +95,43 @@
 .message-input button:hover {
 	background-color: #007bff;
 }
+
+@media (max-width: 768px) {
+	.bottle {
+		width: 40px;
+		height: 70px;
+	}
+
+	.message-input {
+		font-size: 14px;
+		padding: 8px;
+	}
+
+	.message-input button {
+		padding: 8px 16px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.bottle {
+		width: 30px;
+		height: 60px;
+	}
+
+	.message {
+		font-size: 12px;
+		padding: 8px;
+		top: -40px;
+	}
+
+	.message-input {
+		font-size: 12px;
+		padding: 6px;
+	}
+
+	.message-input button {
+		padding: 6px 12px;
+		font-size: 12px;
+	}
+}
