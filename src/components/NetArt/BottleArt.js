@@ -25,7 +25,7 @@ function BottleArt() {
 		<div className="bottle-art">
 			<video
 				className="video-background"
-				src="./videos/untitled.mp4"
+				src="./videos/ocean.mp4"
 				autoPlay
 				loop
 				muted

@@ -16,6 +16,8 @@ import CardBlank from "../components/Cards/CardBlank";
 // Import gifs
 import gif1 from "../components/Animations/ray.gif";
 
+import BannerComponent from "../components/About/BannerComponent";
+
 function User() {
 	return (
 		<main className="user">
@@ -78,6 +80,13 @@ function User() {
 				/>
 			</article>
 			<CardBlank />
+			<BannerComponent
+				heading="Reflection"
+				text={[
+					"Overall the process was challenging but equally entertaining. We have tried our hardest to create a site that is consistent, simple and well structured. There are many things we still seek to improve such as certain sections with large text such as the journal. As well as different ways to layout and structure a page as certain pages are much weaker in terms of design",
+					"I think we have definetly excelled in the overall theme and design, how the images, gifs, text and backgrounds all linked in aspects such as colour, placement and consistency. However, as a new site there is still a lot we need to improve and we will be looking forwward to utilizing feedback and experimenting with different techniques to better ourselves!",
+				]}
+			/>
 			<Footer />
 		</main>
 	);

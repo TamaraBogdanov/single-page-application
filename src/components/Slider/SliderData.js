@@ -1,18 +1,18 @@
 //Slider Images
 export const SliderData = [
 	{
-		Image: "./images/wireframe-1.png",
+		Image: "./images/wireframe-1.jpg",
 	},
 	{
-		Image: "./images/wireframe-2.png",
+		Image: "./images/wireframe-2.jpg",
 	},
 	{
-		Image: "./images/wireframe-3.png",
+		Image: "./images/wireframe-3.jpg",
 	},
 	{
-		Image: "./images/wireframe-4.png",
+		Image: "./images/wireframe-4.jpg",
 	},
 	{
-		Image: "./images/wireframe-5.png",
+		Image: "./images/netart-wireframe.jpg",
 	},
 ];

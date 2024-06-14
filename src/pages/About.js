@@ -16,7 +16,13 @@ import AnimatedGif from "../components/Animations/AnimatedIcon";
 function AboutPage() {
 	return (
 		<main className="about-page">
-			<BannerComponent />
+			<BannerComponent
+				heading="About Us..."
+				text={[
+					"Welcome to our digital oasis amidst the sometimes stormy seas of the internet!",
+					"We're here to turn the tide on negativity and spread waves of positivity far and wide.",
+				]}
+			/>
 			<About />
 			<AnimatedGif gifSrc={gif2} />
 			<Art />

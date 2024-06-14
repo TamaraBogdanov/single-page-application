@@ -155,6 +155,12 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.style-guide-text h3 {
+	color: #b5d8f5;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	padding-top: 1.5rem;
+}
 .style-guide-text p {
 	width: 100%;
 	text-align: left;
@@ -162,6 +168,10 @@ h1 {
 		"Lucida Sans", Arial, sans-serif;
 }
 
+.style-boarder {
+	background-color: #b5d8f57b;
+	padding: 1.5rem;
+}
 /* Essay Card Styling*/
 
 .essay-card-container {

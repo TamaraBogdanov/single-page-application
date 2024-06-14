@@ -1,21 +1,14 @@
 import React from "react";
-
-//Import Styling
 import "./BannerComponent.css";
 
-function BannerComponent() {
+function BannerComponent({ heading, text }) {
 	return (
 		<section className="banner">
 			<article className="banner-bg">
-				<h1>About Us...</h1>
-				<p>
-					Welcome to our digital oasis amidst the sometimes stormy seas of the
-					internet!
-				</p>
-				<p>
-					We're here to turn the tide on negativity and spread waves of
-					positivity far and wide.
-				</p>
+				<h1>{heading}</h1>
+				{text.map((paragraph, index) => (
+					<p key={index}>{paragraph}</p>
+				))}
 			</article>
 		</section>
 	);

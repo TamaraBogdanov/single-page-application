@@ -19,63 +19,89 @@ function CardBlank() {
 						Colour palette used for this site
 					</p>
 					<div className="style-guide-text">
+						<h3>Colour and Tone...</h3>
 						<p>
-							With my main idea being to spread positivity, i thought utilizing
-							the ocean as my main theme would work very well together. Every
-							single one of my pages follow the same colour palette of blues,
-							whites and blacks. Though black isnt a "cheerful colour" I have
-							used it in various places such as the footer, navbar, buttons as
-							well as background text in certain pages so that it could stand
-							compared to the blues and whites that predominantly fill my
-							website and therefore provide some contrast. I have also kept
-							every header the same colour except on the about page, reason
-							being was for it to contrast well against the lighter background
+							With our main theme centered around the ocean, we have dedicated
+							ourselves to using colors that not only evoke the essence of the
+							sea but also appear as cool, vibrant hues. Our goal was to
+							incorporate blues and greens that stand out and create an
+							energetic, positive experience for users. We experimented with
+							various shades of blues and greys, which gave off a somber mood.
+							However, the implementation of lighter blues, greens, and whites
+							resulted in a much more vibrant and uplifting effect.
 						</p>
 						<p>
-							Not only does this colour palette work well together, but it also
-							further assists me in my simplistic, modern design. From using
-							sliders, carousels, image panels etc, I wanted my site to focus on
-							displaying what it offers in a neat, simple fashion where all the
-							important information is easily accessable and neat. All my images
-							are displayed in such a way that neatly structures every page. I
-							did not want the page to cut off any images and content so that
-							the user would have to scroll dowm to view it.
+							We ensured consistency across all pages, with matching colors for
+							titles, backgrounds, and carefully selected gifs and images to
+							align with the theme. On specific pages, like the about page, we
+							used a different color for the title, transitioning from white to
+							Uranian blue. This was done to maintain balance, as there was
+							already an abundance of white text and buttons in the design.
+							Every page and layout was created with this cohesive palette in
+							mind, maintaining consistency while strategically switching
+							between colors to optimize the design and layout of each page.
+						</p>
+					</div>
+					<section className="style-boarder">
+						<div className="style-guide-text">
+							<h3>Font and Design...</h3>
+							<p>
+								The font we have chosen is ""Trebuchet MS", "Lucida Sans
+								Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif!"
+								The font features a high height, wide proportions, and clear,
+								open forms, making it very legible at various sizes. It gives a
+								very clean, simple and modern look that matches the design of
+								our site. The layout was specifically designed to appear simple,
+								modern but also inviting, friendly and colourful. The font we
+								have selected appeals to many of these charicteristics.
+							</p>
+							<p>
+								To contrast the vibrant colours, we have designed our navbar and
+								footer to embody a very modern, darker look. Contrasting the
+								blues, greens and whites with a modern, simple black. The font
+								here remains default as we liked the bolder feeling the text
+								offers. The majority of the white text lies within these two
+								components, for the soul reason that the site needed a break
+								from all of the cooler tones.
+							</p>
+						</div>
+					</section>
+					<div className="style-guide-text">
+						<h3>Spacing and Layout...</h3>
+						<p>
+							We have significantly updated our layouts since the previous
+							deployment. Previously, there was a lot of empty space and large
+							blocks of text on some pages. Our goal was to make the site
+							simple, easy to use, and fun without being overwhelming. To
+							achieve this, we have implemented more white space to break up
+							text, images, and backgrounds. We have also added a cute banner
+							component featuring a pixel gif at the center, which adds a
+							playful element and acts as a "break" from all the detailed
+							imagery and backgrounds.
+						</p>
+						<p>
+							Our site is designed to predominanetly display an image covering
+							the main section of the page. This sits atop the hierachy, adding
+							chracter and vibrancy to every page. Each image within a page also
+							corresponds with the images within the homepages card containers.
+							Atop these image backgrounds, such as the Essay and Journal page
+							would lie the most important content, with the remainers being
+							reflections, dev blogs etc.
+						</p>
+						<p>
+							Because of this layout, feedback from users indicated that it was
+							difficult to identify if a page contained more information. There
+							were no visual cues to indicate additional content below the fold.
+							To address this, we have introduced the banner feature just below
+							the main section of each page, signaling that more content is
+							available below. Additionally, we have added an animated white
+							arrow on the homepage to reinforce this effect. These enhancements
+							ensure a more engaging, user-friendly experience, guiding visitors
+							through the site with clear visual cues and an appealing design.
 						</p>
 					</div>
 				</article>
 			</section>
-
-			<article className="cards-container">
-				<h1>Here are the UI/UX decisions I've made!</h1>
-				<p>
-					Everything i have done in this site was to insure users have an
-					enjoyable experience without having to worry to much about navigating,
-					reading or viewing content. On pages such as the Essay Page, i have
-					confined a long 2000 word essay into a small book format where the
-					page flips upon reading a section. Within my design journal, i have
-					confined all of my wireframes to be displayed in the form of a
-					slider/cariousel. All of these decisions were to make the pages were
-					kept neat and simple. The user can interact with how much they wish to
-					view instead of having it all just plastered on the page. Within my
-					Homepage, i have also managed to confine many elements and pages
-					within a card component, transforming them into links that will lead
-					you to the actual page/site. Because these links were found in the
-					bottom of the homepage, when they were redirected it would start
-					halfway within that page clicked.Because of this, i actually had to
-					further implement some code to make sure upon everyl link clicked, the
-					user would be taken to the top of the page.
-				</p>
-				<p>
-					I have also confined a small youtube video to be displayed on the
-					homescreen upon clicking the "Uplifting Video button" This way it
-					would keep you within the site and users wouldnt have to go back
-					sompletely to revisit it. Additionally, i have added methods of
-					closing the video as on default it would remain open unless the user
-					clicked to go backwards on the site. To top it all off, i have also
-					added responsivness to my pages, and with this comes a burger menu i
-					have added to help mobile users navigate.
-				</p>
-			</article>
 		</main>
 	);
 }
