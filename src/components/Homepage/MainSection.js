@@ -13,22 +13,22 @@ function MainSection() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	// Function to open the YouTube modal
-	const openModal = () => {
+	function openModal() {
 		setIsModalOpen(true);
-	};
+	}
 
 	// Function to close the YouTube modal
-	const closeModal = () => {
+	function closeModal() {
 		setIsModalOpen(false);
-	};
+	}
 
 	// Function to handle scroll to the CardComponent section
-	const scrollToCardComponent = () => {
+	function scrollToCardComponent() {
 		const cardComponentSection = document.getElementById("card-component");
 		if (cardComponentSection) {
 			cardComponentSection.scrollIntoView({ behavior: "smooth" });
 		}
-	};
+	}
 
 	return (
 		<div className="main-container">

@@ -23,7 +23,7 @@ function BottleArt() {
 	}
 
 	return (
-		<div className="bottle-art">
+		<section className="bottle-art">
 			<video
 				className="video-background"
 				src="./videos/ocean.mp4"
@@ -43,7 +43,7 @@ function BottleArt() {
 				/>
 			))}
 			<MessageInput onAddMessage={handleAddMessage} />
-		</div>
+		</section>
 	);
 }
 

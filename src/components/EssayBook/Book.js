@@ -8,18 +8,18 @@ const Book = ({ imageSrc, essayPages }) => {
 	const [currentPage, setCurrentPage] = useState(0);
 
 	// Function to handle navigation to the next page
-	const nextPage = () => {
+	function nextPage() {
 		// Update the current page to the next page, wrapping around to the first page if at the end
 		setCurrentPage((prevPage) => (prevPage + 1) % essayPages.length);
-	};
+	}
 
 	// Function to handle navigation to the previous page
-	const prevPage = () => {
+	function prevPage() {
 		// Update the current page to the previous page, wrapping around to the last page if at the beginning
 		setCurrentPage(
 			(prevPage) => (prevPage - 1 + essayPages.length) % essayPages.length
 		);
-	};
+	}
 
 	return (
 		<section className="book">

@@ -79,7 +79,6 @@ function Navbar() {
 							</Link>
 						</li>
 
-						{/* "Sign Up" link for mobile */}
 						<li>
 							<Link to="/user" className="nav-links" onClick={closeMobileMenu}>
 								Journal
