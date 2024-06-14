@@ -8,15 +8,14 @@ import EssayCard from "../components/Cards/EssayCard";
 import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Footer from "../components/Footer/Footer";
+import BannerComponent from "../components/About/BannerComponent";
 
 // Import Icon
 import AnimatedGif from "../components/Animations/AnimatedIcon";
 import CardBlank from "../components/Cards/CardBlank";
 
 // Import gifs
-import gif1 from "../components/Animations/ray.gif";
-
-import BannerComponent from "../components/About/BannerComponent";
+import gif1 from "../components/Animations/ray.gif"; //fuckyeah-pixels.tumblr.com
 
 function User() {
 	return (

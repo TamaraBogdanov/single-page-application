@@ -9,7 +9,7 @@ import Footer from "../components/Footer/Footer";
 import EssayCard from "../components/Cards/EssayCard";
 
 // Import gifs
-import gif1 from "../components/Animations/ray.gif";
+import gif1 from "../components/Animations/ray.gif"; //fuckyeah-pixels.tumblr.com
 import AnimatedGif from "../components/Animations/AnimatedIcon";
 
 function Theory() {

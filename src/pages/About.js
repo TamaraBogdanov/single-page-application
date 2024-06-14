@@ -10,7 +10,7 @@ import BannerComponent from "../components/About/BannerComponent";
 import Art from "../components/About/Art";
 
 //Import Gifs
-import gif2 from "../components/Animations/bubble.gif";
+import gif2 from "../components/Animations/bubble.gif"; //fuckyeah-pixels.tumblr.com
 import AnimatedGif from "../components/Animations/AnimatedIcon";
 
 function AboutPage() {
