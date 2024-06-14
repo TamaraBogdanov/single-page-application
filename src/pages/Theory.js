@@ -46,8 +46,12 @@ function Theory() {
 					/>
 					<EssayCard
 						className="essays"
-						title="UI/UX Reflection"
-						paragraphs={[]}
+						title="Week 12: Dev Blog"
+						paragraphs={[
+							`The theory covered in class, along with the UI/UX walkthrough, has been instrumental in shaping my understanding of how my site should function. I've started working on elements to improve user experience and prevent frustration, focusing primarily on navigation, page layout, and structure. I am experimenting with different color theories and layouts that are visually appealing and user-friendly. I am attempting to simplifyand organize my design page to avoid long blocks of text and images.`,
+							`Whilst looking at inspiration online, all sites ive seen have a neat, well put together interface even when presented with large amount of information. I will attempt to create certain components like a carousel etc that fits multiple image elements inside to avoid having an information overload, just like my past design pages. It is just such a challenge to create and structure a page when there is so much text, I never know what to do with it. `,
+							`Additionally, I've been scanning  over the readings provided this week to deepen my understanding of net art, AI’s impact in art, and truly what defines netart. Defining what net art is and isn't has been challenging, and I'm concerned about creating a piece without meaningful content. Thankfully, with my chosen site theme of the ocean and spreading positivity, I thought of creating a piece that encapsulated this, perhaps in the form of bottles with messages, where users can create a message and send it off into the ocean for another person to find the bottle and open up the message. for users.`,
+						]}
 					/>
 				</section>
 			</article>
