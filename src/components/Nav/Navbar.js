@@ -78,6 +78,7 @@ function Navbar() {
 								Net Art
 							</Link>
 						</li>
+
 						{/* "Sign Up" link for mobile */}
 						<li>
 							<Link to="/user" className="nav-links" onClick={closeMobileMenu}>

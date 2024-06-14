@@ -37,9 +37,9 @@ function CardBlank() {
 							used a different color for the title, transitioning from white to
 							Uranian blue. This was done to maintain balance, as there was
 							already an abundance of white text and buttons in the design.
-							Every page and layout was created with this cohesive palette in
-							mind, maintaining consistency while strategically switching
-							between colors to optimize the design and layout of each page.
+							Every page and layout was created with this palette in mind,
+							maintaining consistency while strategically switching between
+							colors to optimize the design and layout of each page.
 						</p>
 					</div>
 					<section className="style-boarder">
@@ -77,7 +77,9 @@ function CardBlank() {
 							text, images, and backgrounds. We have also added a cute banner
 							component featuring a pixel gif at the center, which adds a
 							playful element and acts as a "break" from all the detailed
-							imagery and backgrounds.
+							imagery and backgrounds. Boxed backgrounds were also added around
+							text to create more atmosphere and appeal to the eyes when dealing
+							with long, boring paragraohs of text
 						</p>
 						<p>
 							Our site is designed to predominanetly display an image covering

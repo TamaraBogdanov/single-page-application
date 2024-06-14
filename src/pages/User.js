@@ -25,7 +25,7 @@ function User() {
 			<AnimatedGif gifSrc={gif1} text="Check out our design process below!" />
 			<article className="essay-card-container">
 				<EssayCard
-					title="Reflection"
+					title="Design Reflection"
 					paragraphs={[
 						`With my main idea being to spread positivity, i thought utilizing the
 						ocean as my main theme would work very well together. Every single one
@@ -51,31 +51,16 @@ function User() {
 				<EssayCard
 					title="UI/UX Reflection"
 					paragraphs={[
-						`Everything i have done in this site was to insure users have an
-						enjoyable experience without having to worry to much about navigating,
-						reading or viewing content. On pages such as the Essay Page, i have
-						confined a long 2000 word essay into a small book format where the
-						page flips upon reading a section. Within my design journal, i have
-						confined all of my wireframes to be displayed in the form of a
-						slider/cariousel. All of these decisions were to make the pages were
-						kept neat and simple. The user can interact with how much they wish to
-						view instead of having it all just plastered on the page. Within my
-						Homepage, i have also managed to confine many elements and pages
-						within a card component, transforming them into links that will lead
-						you to the actual page/site. Because these links were found in the
-						bottom of the homepage, when they were redirected it would start
-						halfway within that page clicked.Because of this, i actually had to
-						further implement some code to make sure upon everyl link clicked, the
-						user would be taken to the top of the page.`,
+						`
+							Our primary focus throughout the development of this site has been to ensure users enjoy a seamless experience without the burden of navigating or hunting for information. Reflecting on insights from the UI/UX walkthrough PDF provided, it became evident that users form quick judgments about a site within seconds of visiting. Initially, our main pages were aesthetically pleasing but lacked clarity in indicating additional content beyond the surface.`,
+						`To address this, we introduced two crucial elements. First, an arrow link embedded within the homepage not only signals the presence of more content below but also serves as a direct link guiding users to explore further. Secondly, we implemented a banner component strategically positioned at the bottom of the main page. This component not only serves as a visual break in content as you scroll further down but also effectively signals to users that there is more valuable information awaiting them below. `,
+						`We've taken navigation feedback seriously, particularly noting concerns about missing pages from the navbar or only accessible through card components on the homepage. This setup made it tedious to navigate without frequently returning to the homepage. As a solution, we merged the "About" and "Planning Page" since their content individually was minimal, reducing the need for excessive page switching. Additionally, all pages are now accessible through the card component for seamless navigation, eliminating the redundant "sign up" button and replacing it with a link to the journal. The "Theory" page, deemed lower in priority, remains excluded from the navbar but is accessible via a dedicated button on the "About" page to accommodate easy access to all site content. As per usual, all navigation components have been placed to retain consistancy and purpose.`,
+						`We've incorporated several enhancements to improve user experience. One major addition is the use of expandable card components, which effectively organize and display large amounts of text in a neat and simple manner. These cards provide users with a preview of the blog or text content, allowing them to interact further by expanding the card to view more details Another such component created was the carousel, designed to hold multiple images the user can switch between.`,
 
-						`I have also confined a small youtube video to be displayed on the
-						homescreen upon clicking the "Uplifting Video button" This way it
-						would keep you within the site and users wouldnt have to go back
-						sompletely to revisit it. Additionally, i have added methods of
-						closing the video as on default it would remain open unless the user
-						clicked to go backwards on the site. To top it all off, i have also
-						added responsivness to my pages, and with this comes a burger menu i
-						have added to help mobile users navigate.`,
+						`Previously, our site did feel a bit stagnant, so animations, pop ups, gifs and hover effects have been added to certain components to give the site a more lively feel, as well as to enhance user experience and interactiom. Additionally, we've integrated a small YouTube video on the homepage, accessible via an "Uplifting Video" button. This feature ensures that users can stay within the site to watch the video without needing to navigate away entirely. To enhance usability, we've included functionality to close the video easily, ensuring it doesn't remain open unless intentionally accessed by the user.
+
+							And lastly, we've prioritized responsiveness across our pages, making them adaptable to different screen sizes. This includes implementing a burger menu specifically designed to enhance navigation for mobile users, further improving accessibility and usability across various devices.
+							`,
 					]}
 				/>
 			</article>

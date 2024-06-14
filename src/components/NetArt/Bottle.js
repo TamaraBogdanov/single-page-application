@@ -10,7 +10,7 @@ function Bottle({ left, animationDuration, message }) {
 			style={{
 				left,
 				animationDuration,
-				visibility: showMessage ? "visible" : "hidden",
+				visibility: showMessage ? "visible" : "hidden", // Determines if the bottle and its message are visible
 			}}
 		>
 			<img src={BottleImage} alt="Bottle" />

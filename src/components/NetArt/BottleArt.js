@@ -10,16 +10,17 @@ import MessageInput from "./MessageInput";
 function BottleArt() {
 	const [bottles, setBottles] = useState([]);
 
-	const handleAddMessage = (newMessage) => {
+	// Generate a new bottle object
+	function handleAddMessage(newMessage) {
 		const newBottle = {
 			id: Date.now(),
-			left: `${Math.random() * 90}vw`,
-			animationDuration: `${Math.random() * 6 + 4}s`,
+			left: `${Math.random() * 90}vw`, // Generates a random position between 0 and 90vw
+			animationDuration: `${Math.random() * 6 + 4}s`, // random animation durition between 4s and 10s
 			message: newMessage,
 		};
 
-		setBottles((prevBottles) => [...prevBottles, newBottle]);
-	};
+		setBottles((prevBottles) => [...prevBottles, newBottle]); //Updates state to replace current value witj new bottle array
+	}
 
 	return (
 		<div className="bottle-art">
@@ -31,6 +32,7 @@ function BottleArt() {
 				muted
 			/>
 
+			{/*Iterates over each bottle, adding unique components */}
 			{bottles.map((bottle) => (
 				<Bottle
 					key={bottle.id}
