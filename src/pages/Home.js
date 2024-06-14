@@ -10,13 +10,13 @@ import Footer from "../components/Footer/Footer";
 
 function Home() {
 	return (
-		<>
+		<main>
 			<MainSection />
 			<section id="card-component">
 				<CardComponent />
 			</section>
 			<Footer />
-		</>
+		</main>
 	);
 }
 

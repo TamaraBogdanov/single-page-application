@@ -9,10 +9,10 @@ import Footer from "../components/Footer/Footer";
 
 function Theory() {
 	return (
-		<>
+		<main>
 			<BookPage />
 			<Footer />
-		</>
+		</main>
 	);
 }
 

@@ -9,7 +9,6 @@ import ScrollToTop from "./Customhook";
 
 //Pages
 import Theory from "./pages/Theory";
-import Planning from "./pages/Planning";
 import NetArtPage from "./pages/NetArt";
 import AboutPage from "./pages/About";
 
@@ -26,7 +25,6 @@ function App() {
 					<Route path="/about" exact element={<AboutPage />}></Route>
 					<Route path="/user" exact element={<User />}></Route>
 					<Route path="/theory" exact element={<Theory />}></Route>
-					<Route path="/art" exact element={<Planning />}></Route>
 					<Route path="/netart" exact element={<NetArtPage />}></Route>
 				</Routes>
 			</BrowserRouter>

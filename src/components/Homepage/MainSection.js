@@ -71,7 +71,7 @@ function MainSection() {
 			<section className="space">
 				<div className="down-arrow" onClick={scrollToCardComponent}>
 					&#x290B;
-					{/* Unicode for downward arrow */}
+					{/* "https://www.toptal.com/designers/htmlarrows/arrows/" */}
 				</div>
 			</section>
 			{/* Renders the YouTubeModal component and manages its open/close state based on the isModalOpen state variable and the closeModal function */}

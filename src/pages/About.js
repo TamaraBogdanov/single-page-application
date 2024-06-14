@@ -15,13 +15,13 @@ import AnimatedGif from "../components/Animations/AnimatedIcon";
 
 function AboutPage() {
 	return (
-		<div className="about-page">
+		<main className="about-page">
 			<BannerComponent />
 			<About />
 			<AnimatedGif gifSrc={gif2} />
 			<Art />
 			<Footer />
-		</div>
+		</main>
 	);
 }
 
